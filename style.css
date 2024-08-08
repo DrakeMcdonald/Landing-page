@@ -1,0 +1,78 @@
+.nav1 {
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the right */
+    align-items: center;
+    /* Align items to the center vertically */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* Space between h1 and nav */
+    align-items: center;
+    /* Align items in the center vertically */
+    padding: 20px;
+    /* Padding for spacing */
+    background-color: #f8f8f8;
+    /* Background color for the header */
+}
+
+header .h1pg1 {
+    margin: 0;
+    /* Remove default margin */
+}
+header .h1pg2 {
+    margin: 0;
+}
+
+header nav a {
+    margin-left: 20px;
+    /* Space between nav items */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: #600808;
+    /* Text color of the nav items */
+    padding: 10px 15px;
+    /* Padding inside nav items */
+    border-radius: 5px;
+    /* Rounded corners for nav items */
+}
+
+header nav a:hover {
+    background-color: #ddd;
+    /* Gives the background of the options a shade when hovered on */
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* align items along the main axis. */
+    align-items: flex-end;
+    position: fixed; /* Helps kickstart sticking the footer at the bottom with the help of the bottom command*/
+    bottom: 0; /* This forces the footer to the bottom of the page */
+    width: 100%; /* Sets width to 100% or specific width, this moves the footer to the center of the page*/
+    background-color: #dcf3f1;
+    
+    
+}
+
+.Container {
+    text-align: center;
+    
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Matrix {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* This makes the image circular */
+   
+}
+.intro {
+    text-align: center;
+}
